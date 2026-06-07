@@ -2,8 +2,6 @@
 
 A Python tool for **rapid triage of automotive CAN bus logs** (.asc format). Parses raw bus captures, decodes signals via an inline DBC-style database, flags anomalies, and generates a plain-text report — all in seconds.
 
-> **Background:** This is the open-source version of an automation tool I built at Mercedes-Benz R&D India. The original reduced log analysis time from 30–40 minutes to ~15 minutes across production plants in Germany and China, earning the **Spontan Award**.
-
 ## Features
 
 - `.asc` log file parsing (Vector CANalyzer format)
